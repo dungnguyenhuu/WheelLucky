@@ -1,2 +1,2 @@
-# WheelLucky
-Wheel Lucky game - Cocos Creator
+# hello-world
+Hello world new project template.
