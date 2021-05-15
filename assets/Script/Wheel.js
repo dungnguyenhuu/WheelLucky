@@ -63,8 +63,9 @@ cc.Class({
             if(this.node.angle / 360 > 1){
                 this.speed = this.node.angle / 360;
                 this.node.angle -= this.speed; 
+            } else {
+                this.node.angle -= this.speed;
             }
-            this.node.angle -= this.speed;
         } else {
             this.isSpine = false;
             this.gameControl.setText(this.listItem[this.itemId].item);
