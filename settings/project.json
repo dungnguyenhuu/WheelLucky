@@ -19,5 +19,8 @@
   "simulator-resolution": {
     "width": 960,
     "height": 640
-  }
+  },
+  "migrate-history": [
+    "cloud-function"
+  ]
 }
